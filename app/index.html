@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Print Madness!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/vendor/normalize.css">
+  <link rel="stylesheet" href="css/vendor/foundation.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body ng-app="printCRM">
+
+  <div class="container" ui-view></div>
+
+  <!-- VENDOR -->
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/underscore.js"></script>
+  <script src="js/vendor/angular.js"></script>
+  <script src="js/vendor/angular-ui-router.min.js"></script>
+
+
+  <!-- MAIN -->
+  <script src="js/main.js"></script>
+  <script src="js/controllers/dash.controller.js"></script>
+  <script src="js/controllers/jobs.controller.js"></script>
+  <script src="js/services/user.service.js"></script>
+  <script src="js/services/jobs.service.js"></script>
+
+</body>
+</html>

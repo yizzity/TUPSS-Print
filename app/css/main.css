@@ -1,0 +1,11 @@
+.joblist-headers{
+  margin-bottom: 20px;
+}
+
+.joblist-headers div{
+  font-weight: 800;
+}
+
+.joblist li{
+  list-style-type: none;
+}
