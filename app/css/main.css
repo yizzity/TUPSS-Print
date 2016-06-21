@@ -15,13 +15,19 @@
   height: 100vh;
   float: left;
   text-align: center;
+  background: #E8E8E8;
 }
 
 .nav-bar a{
   font-size: 20px;
   padding: 20px;
-  border-bottom: 1px #cacaca solid;
+  border-bottom: 1px #0a0a0a solid;
   display: block;
+  color: #000;
+}
+
+.nav-bar .nav-link:first-child{
+  background: #FDB32B;
 }
 
 .ui-container{
@@ -34,6 +40,3 @@
     font-size: 12px;
   }
 }
-
-
-
