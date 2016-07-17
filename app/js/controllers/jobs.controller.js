@@ -10,9 +10,10 @@
       $scope.joblist = [];
 
       var getJobs = function(){
-        JobsService.getJobs().then(function(data){
-          $scope.jobList = data;
-          console.log($scope.joblist);
+        JobsService.getJobs().then(function(response){
+          console.log('got jobs:', response.data);
+          $scope.jobList = response.data.print_jobs;
+          console.log($scope.jobList);
         });
       };
 

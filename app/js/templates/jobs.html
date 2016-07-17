@@ -8,11 +8,11 @@
 </div>
 
 <ul class="row joblist">
-  <li ng-repeat="job in joblist">
-    <div class="column small-3">{{ job.customer_name }}</div>
-    <div class="column small-3">{{ job.status }}</div>
-    <div class="column small-3">{{ job.due_date }}</div>
-    <div class="column small-3">{{ job.job_type }}</div>
+  <li ng-repeat="job in jobList">
+    <div class="column small-3">{{ job.page_amount }}</div>
+    <div class="column small-3">{{ job.job_status }}</div>
+    <div class="column small-3">{{ job.quote_date }}</div>
+    <div class="column small-3">{{ job.quote_price }}</div>
   </li>
 </ul>
 
